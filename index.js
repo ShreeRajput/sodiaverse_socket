@@ -1,6 +1,6 @@
 import { Server } from "socket.io"
 
-const PORT = process.env.PORT || 8900; 
+const PORT = 8900; 
 const io = new Server(PORT, {
   cors: {
     origin: '*',
